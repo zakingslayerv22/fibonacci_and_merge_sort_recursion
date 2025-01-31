@@ -4,10 +4,10 @@ function mergeSort(array) {
 
   if (copy.length < 2) return copy;
 
-  const splitFromHere = Math.round(copy.length / 2);
+  const splitArrayFromThisIndex = Math.round(copy.length / 2);
 
-  const leftPart = copy.splice(0, splitFromHere);
-  const rightPart = copy.slice(0, splitFromHere);
+  const leftPart = copy.splice(0, splitArrayFromThisIndex);
+  const rightPart = copy.slice(0, splitArrayFromThisIndex);
 
   const sortedleft = mergeSort(leftPart);
   const sortedRight = mergeSort(rightPart);
