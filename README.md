@@ -1,2 +1,3 @@
 # recursion_and_merge_sort
-The Odin Project : Recursion
+
+The project on recursive methods made us implement the fibonacci and merge sort with recursion.
